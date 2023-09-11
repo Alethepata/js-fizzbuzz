@@ -10,12 +10,17 @@ for(let i = 1; i <= 100; i++){
   box.classList.add('box');
   if((!(i % 3) && (!(i % 5)))){
     box.classList.add('bg-black');
+    box.innerHTML='Fizzbuzz';
   } else if(!(i % 3)){
     box.classList.add('bg-warning');
+    box.innerHTML='Fizz';
   }else if(!(i % 5)){
     box.classList.add('bg-primary');
+    box.innerHTML='Buzz';
   }else{
     box.classList.add('bg-danger');
+    box.append(i);
   }
-  console.log(i, box)
+  
+  boxesContainer.append(box);
 }
