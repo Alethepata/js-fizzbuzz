@@ -1,0 +1,29 @@
+body{
+    background-color: #ffe9e7;
+}
+h1{
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+}
+.box{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 20px;
+   width: 100px;
+   height: 100px;
+   color: white;
+}
+.bg_green{
+    background-color: #daeec9;
+}
+.bg_blue{
+    background-color:#d0e8f2 ;
+}
+.bg_yellow{
+    background-color: #fff7d3;
+}
+.bg_orange{
+    background-color: #feddb9;
+}
+

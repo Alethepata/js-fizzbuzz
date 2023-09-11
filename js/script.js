@@ -9,16 +9,16 @@ for(let i = 1; i <= 100; i++){
   const box = document.createElement('div');
   box.classList.add('box');
   if((!(i % 3) && (!(i % 5)))){
-    box.classList.add('bg-black');
+    box.classList.add('bg_orange');
     box.innerHTML='Fizzbuzz';
   } else if(!(i % 3)){
-    box.classList.add('bg-warning');
+    box.classList.add('bg_yellow');
     box.innerHTML='Fizz';
   }else if(!(i % 5)){
-    box.classList.add('bg-primary');
+    box.classList.add('bg_green');
     box.innerHTML='Buzz';
   }else{
-    box.classList.add('bg-danger');
+    box.classList.add('bg_blue');
     box.append(i);
   }
   
